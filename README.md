@@ -1,2 +1,2 @@
 # SQL 
-Problem Solving in MySQl
+Problem Solving in MySQL
