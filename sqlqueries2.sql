@@ -45,3 +45,39 @@ select * from college where city like "_u%" limit 3;
 select * from college 
 order by marks desc 
 limit 3;
+
+select count(name) from college;
+select max(name) from college;
+select min(marks) from college;
+select sum(marks) from college;
+select avg(marks) from college;
+
+select city from college
+group by 
+city;
+
+select city,avg(marks) from college
+group by city;
+
+select city,avg(marks) from college
+group by city
+order by avg(marks) asc;
+
+select city from college
+group by city
+having city="surat";
+
+select city from college
+group by city
+having count(grade)>1;
+
+select city , count(grade) from college
+group by city
+having count(grade)>0;
+
+select city from college 
+where grade ="A"
+group by city
+having count(grade)>0
+order by city desc
+limit 1;
