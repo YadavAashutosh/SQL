@@ -1,4 +1,4 @@
---176. Second Highest Salary
+-- 176. Second Highest Salary
 
 # Write your MySQL query statement below
 select ( select salary 
