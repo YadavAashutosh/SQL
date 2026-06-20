@@ -1,4 +1,4 @@
--- 182. Duplicate Emails
+-- 182. Duplicate Emails 
 
 # Write your MySQL query statement below
 select email as Email 
